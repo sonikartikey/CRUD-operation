@@ -1,20 +1,15 @@
-<h1>listing all articles</h1>
-<p>
-	<%=link_to 'create new article',new_article_path%>
-</p>
+<h1 align ="center">listing all articles</h1>
+<div align= "center">
+  <%= will_paginate%>
+</div>
+<%=render partial: 'article', locals: {object: @articles} %>
 
-<table>
-	<tr><th>Title</th>
-		<th>Description</th>
-	</tr>
+<div align= "center">
+  <%= will_paginate%>
+</div>
 
-	<%@articles.each do |article|%>
-	<tr>
-		<td><%=article.title%></td>
-		<td><%=article.description%></td>
-		<td><%=link_to'edit article', edit_article_path(article)%></td>
-		<td><%=link_to'show article', article_path(article)%></td>
-		<td><%=link_to'delete article',article_path(article), method: :delete, data:{confirm: "are you sure????"}%></td>
-	</tr>
-	<%end%>
-</table>
+
+
+
+
+ 

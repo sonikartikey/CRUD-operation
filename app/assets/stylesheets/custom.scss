@@ -1,0 +1,87 @@
+div#bs-example-navbar-collapse-1 {
+    background-color: #08088A;
+}
+
+#logo{
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	letter-spacing: -1px;
+	font-weight:bold; 
+}
+#logo:hover{
+	color: white;
+	text-decoration:none;
+}
+.centre{
+
+	 text-align: center;
+}
+
+.jumbotron{
+	background-image: asset-url('blog.jpg');
+	background-size: cover;
+	height: 550px;
+}
+.jumbotron h1
+{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+ 
+
+ .btn-xlagre
+{
+    font-size: 1.7em;
+	background-color: black;
+}
+
+.article-meta-details{
+	border-top: 1px solid #eaeaea;
+	margin-top: 15px;
+}
+
+
+footer{
+margin-to: 45px;
+padding-top: 5px;
+border-top:1px solid #eaeaea;
+color: #777;
+}
+
+footera a:hover
+{
+	color: #222;
+}
+
+footer small
+{
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+
+}
+
+footer ul li {
+     float: left;
+	margin-left: 15px;
+}
+
+.article-title
+  {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+ 
+ .article.body{
+ border-top: 1px solid #eaeaea;
+ padding-top: 15px;
+ padding-bottom: 15px;
+	
+}
